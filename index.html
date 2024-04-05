@@ -16,19 +16,18 @@
 <body>
     <header>
         <div class="header">
-            <div class="logo"><img src="images/logo.png" /></div>
+            <div class="logo"  id="logo-icon" ><img src="images/logo.png" /></div>
             <div class="menu">
                 <img class="menu-opener"src="images/menu.png"/>
                 <nav>
                     <ul>
                         <li class="active"><a href="">Principal</a></li>
-                        <li><a href="">Sobre</a></li>
-                        <li><a href="">Catálogo</a></li>
-                        <li><a href="">Projetos</a></li>
-                        <li><a href="">Nosso Time</a></li>
-                        <li><a href="">Planos</a></li>
-                        <li><a href="">Alguns Fatos</a></li>
-                        <li><a href="">Fale Conosco</a></li>
+                        <li id="about"><a href="#about-section">Sobre</a></li>
+                        <li id="project"><a href="#project-section">Projetos</a></li>
+                        <li id="staff"><a href="#staff-section">Nosso Time</a></li>
+                        <li id="plans"><a href="#plans-section">Planos</a></li>
+                        <li id="facts"><a href="#facts-section">Alguns Fatos</a></li>
+                        <li id="tellus"><a href="#tellus-section">Fale Conosco</a></li>
 
                     </ul>
                 </nav>
@@ -70,7 +69,7 @@
         </section>
 
         <section class="default light">
-            <div class="section-title">Sobre Nós</div>
+            <div class="section-title" id="about-section">Sobre Nós</div>
             <div class="section-desc">Quem somos?</div>
             <div class="section-body">
                 <div class="section-sobre-nos">
@@ -121,7 +120,7 @@
         </section>
 
         <section class="default light">
-            <div class="section-title">Nossos projetos</div>
+            <div class="section-title" id="project-section">Nossos projetos</div>
             <div class="section-desc">O que estamos fazendo</div>
             <div class="section-body">
                 <div class="section-projetos">
@@ -244,7 +243,7 @@
 
         <section class="default dark time">
             <div class="section-team-area">
-                <div class="section-title">Nosso time</div>
+                <div class="section-title" id="staff-section">Nosso time</div>
                 <div class="section-desc">Quem te traz diversão</div>
                 <div class="section-body">
                     <div class="section-team">
@@ -345,7 +344,7 @@
 
 
         <section class="default light low">
-            <div class="section-title">Preços</div>
+            <div class="section-title" id="plans-section">Preços</div>
             <div class="section-desc">Tabela de Preços</div>
             <div class="section-body">
                 <div class="price-area">
@@ -494,7 +493,7 @@
 
 
         <section class="default dark">
-            <div class="section-title">Alguns fatos</div>
+            <div class="section-title" id="facts-section">Alguns fatos</div>
             <div class="section-desc">curiosidades sobre nosso trabalho</div>
             <div class="section-body">
                 <div class="facts">
@@ -546,7 +545,7 @@
 
 
         <section class="default light">
-            <div class="section-title">Fale conosco</div>
+            <div class="section-title" id="tellus-section">Fale conosco</div>
             <div class="section-desc">Dúvidas, sugestões, elogios</div>
             <div class="section-body">
                 <div class="conact-area">
@@ -646,7 +645,10 @@
         </div>
     </footer>
 
-    
+    <a href="#logo-icon"><div id="gotop"> 
+        <div id="arrow-up"></div>
+    </div></a>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
